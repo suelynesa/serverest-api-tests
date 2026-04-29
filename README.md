@@ -75,6 +75,30 @@ During the development of these tests, I applied a QA mindset by:
 
 ---
 
+## Test Evidence
+
+Below are some examples of API requests and responses executed during the tests:
+
+### Create User
+![Create User](./screenshots/creat-user.png)
+
+### Login
+![Login](./screenshots/login.png)
+
+### Create Product
+![Create Product](./screenshots/creat-product.png)
+
+### Edit Product
+![Edit Product](./screenshots/edit-product.png)
+
+### Search User by ID
+![Search User by ID](./screenshots/search-user-byID.png)
+
+---
+
+## Test Execution Video
+[Watch Video](./video/serverest-api-test-run.mp4)
+
 ## 📎 Notes
 
 This project was developed for learning purposes, focusing on building a strong foundation in API testing and QA practices.
