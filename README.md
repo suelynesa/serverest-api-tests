@@ -27,6 +27,17 @@ The tests simulate real-world scenarios and validate API behavior through struct
 
 ---
 
+## QA Approach
+
+During the development of these tests, I applied a QA mindset by:
+
+- Validating expected vs actual behavior  
+- Investigating inconsistent API responses  
+- Identifying possible edge cases (e.g., duplicated users, missing data)  
+- Ensuring test reliability through proper data handling  
+
+---
+
 ## Test Coverage
 
 The collection includes:
@@ -35,6 +46,16 @@ The collection includes:
 - Dynamic data handling using variables
 - Chained requests (data dependency between endpoints)
 - Basic validation of responses
+
+---
+
+## Negative Test Scenarios
+
+- Unauthorized user attempting admin actions
+- Requests without authentication token
+- Invalid token validation
+- Invalid input data (e.g., negative values)
+- Non-existent resources (e.g., product ID)
 
 ---
 
@@ -61,17 +82,6 @@ Through this project, I developed practical experience with:
 - Writing scripts in Postman (Tests tab)  
 - Handling dependent requests in a test flow  
 - Debugging API issues based on response behavior  
-
----
-
-## QA Approach
-
-During the development of these tests, I applied a QA mindset by:
-
-- Validating expected vs actual behavior  
-- Investigating inconsistent API responses  
-- Identifying possible edge cases (e.g., duplicated users, missing data)  
-- Ensuring test reliability through proper data handling  
 
 ---
 
